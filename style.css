@@ -34,11 +34,11 @@ menu {
     display: none;
 }
 
-menu > ul {
+ul {
     list-style-type: none;
 }
 
-menu > ul > li > a {
+menu > nav > ul > li > a {
     display: block;
     padding: 10px;
     margin-left: 0px;
