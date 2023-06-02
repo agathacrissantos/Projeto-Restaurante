@@ -8,9 +8,34 @@
     <link rel="stylesheet" href="./style.css">
 </head>
 <body>
-    <header></header>
+    <header>
+        <h1>Cardápio</h1>
+             <i id="burguer" class="material-symbols-outlined" onclick="clickMenu()">menu</i>
+             <menu id="itens">
+        <nav>
+                <ul>
+                    <li><a href="#">Pratos Quentes</a></li>
+                    <li><a href="#">Pizzas</a></li>
+                    <li><a href="#">Lanches</a></li>
+                    <li><a href="#">Bebidas</a></li>
+                    <li><a href="#">Sobremesas</a></li>
+                </ul>
+        </nav>
+    </header>
+
     <main></main>
+
     <footer></footer>
+
+    <script>
+        function clickMenu() {
+            if (itens.style.display == 'block') {
+                itens.style.display = 'none'
+            } else {
+                itens.style.display = 'block'
+            }
+        }
+    </script>
     
 </body>
 </html>
