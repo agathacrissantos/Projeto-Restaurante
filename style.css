@@ -9,13 +9,21 @@
 }
 
 header {
-    background-color: cornflowerblue;
+    background-color: rgb(248, 236, 248);
 }
 
-h1 {
-    padding: 10px;
+.informações > ul > li {
+    display: inline-block;
     text-align: center;
+    padding:10px;
+    margin: 10px;
+    font-size: 35px;
 }
+ 
+h1 {
+text-align: center;
+}
+
 
 i#burguer {
     background-color: black;

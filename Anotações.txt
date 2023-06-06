@@ -1,2 +1,2 @@
-Esse é um projeto de desenvolvimento de uma página web responsiva.
+Esse é um projeto de desenvolvimento de uma página web.
 Meu primeiro projeto feito com HTML semântico e CSS.Trata-se de um site de restaurante, onde será apresentado opções de cardápio, links diversos,entre ouras opções.
